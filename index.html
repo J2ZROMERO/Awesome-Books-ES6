@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet" ></link>
+</head>
+<body>
+    
+    <nav id="nav">
+        <div id="nav-links" class="nav-menu">
+            <p class="nav-title">Awesome books</p>
+            <ul class="ul-links">
+                <li class="nav-link nav_list_link" > List</li><hr>
+                <li class="nav-link nav_list_addnew" >Add new</li><hr>
+                <li class="nav-link nav_list_contact" >Contact</li> 
+            </ul>   
+            
+        </div>
+    </nav>
+    <div class="date">
+    September, 28th 2022, 14:02 am
+    </div>
+    <div class="container" id="list-book">
+        <div class="booklistsection">
+            <h1 class="container-title">All Awesome Books</h1>
+            <h3 class="nodata">No Data Found</h3>
+            <ul id="book-list" class="booklist"></ul>
+            <div class="separator"></div>
+        </div>
+    </div>
+    <section id="add-book" class="add-book">
+        <h1> All Awesome Books</h1>
+        
+        <form id="form">
+            <h3>Add a New Book</h3>
+            <input type="text" id="title" placeholder="Title" required><br><br>
+            <input type="text" id="author" placeholder="Author" required><br><br>
+            <button type="submit" id="btn-add">Add</button>
+        </form>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="title">Contact Information</h2>
+        <p class="text">Do you have any questions or you just want to say "Hello"?<br>You can reach out to us</p>
+        <ul class="info">
+            <li>Our email: mail@mail.com</li>
+            <li>Our phone number: 0043586534422</li>
+            <li>Our address: Streetname 22, 84503 City, Country</li>    
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <p class="text-footer">Copyright...</p>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="luxon.min.js"></script>
+</body>
+</html>
