@@ -1,6 +1,7 @@
 import localS from './modules/localStorage.js';
 import interactionDOM from './modules/interactions.js';
 import Book from './modules/book.js';
+import { DateTime } from './luxon.js';
 
 /* elements from HTML */
 
@@ -31,3 +32,10 @@ elementD.removeBook(bookList, nodata);
 window.addEventListener('load', () => {
   localS.emptyLs();
 });
+
+/* luxon */
+const date = document.querySelector('.date');
+setInterval(() => {
+  date.innerHTML = DateTime.now().toLocaleString(DateTime.DATETIME_FULL_WITH_SECONDS);
+}, 0);
+setImmediate();
