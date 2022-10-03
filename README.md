@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### copy link the repository.
 
-### ejecute in your terminal git clone "https://github.com/J2ZROMERO/Awesome-Books-ES6";
+### [ejecute in your terminal and get a clone] ("https://github.com/J2ZROMERO/Awesome-Books-ES6");
 
 
 ### [Live demo: Awesome Books EC6 ](https://j2zromero.github.io/Awesome-Books-ES6/)
