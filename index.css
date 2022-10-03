@@ -1,160 +1,159 @@
 
 body {
-    padding: 12px;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .add-book {
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-  }
-  
-  h1 {
-    width: 100%;
-  }
-  
-  h2 {
-    font-size: 0.9em;
-  }
-  
-  .by {
-    font-size: 0.9em;
-  }
-  
-  .book {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    border: 0.1px solid;
-  }
-  
-  #btn-add {
-    margin-left: 135px;
-  }
-  
-  .remove {
-    width: 72px;
-    height: 21px;
-    margin-right: 10px;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  #book-list {
-    width: 100%;
-  
-    /* border: 1px solid; */
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .dates {
-    display: flex;
-    width: 37%;
-    justify-content: space-between;
-    margin-left: 10px;
-  }
-  
-  .container-title {
-    text-align: center;
-  }
-  
-  .nodata {
-    text-align: center;
-  }
-  
-  .nav-menu {
-    border: 3px solid black;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .nav-link {
-    text-align: center;
-    margin-right: 10px;
-  }
-  
-  .nav-title {
-    margin-left: 10px;
-    font-size: 20px;
-  }
-  
-  .nav-link:hover {
-    text-decoration: underline;
-    font-weight: bolder;
-    font-size: larger;
-    cursor: pointer;
-  }
-  
-  .nav-link-visited {
-    color: blue;
-    text-decoration: underline;
-  }
-  
-  .menuItems {
-    display: flex;
-    gap: 1em;
-    justify-items: center;
-  }
-  
-  .date {
-    text-align: right;
-    margin-top: 15px;
-  }
-  
-  .title {
-    text-align: center;
-  
-    /* font-size: 25px; */
-  }
-  
-  .text {
-    text-align: center;
-    font-size: 18px;
-  }
-  
-  .info {
-    text-align: start;
-    margin-top: 60px;
-    margin-left: 100px;
-  }
-  
-  .footer {
-    border: 2px solid;
-    margin-top: 20%;
-  }
-  
-  .text-footer {
-    margin-left: 10px;
-    font-size: 18px;
-  }
-  
-  #add-book {
-    display: none;
-  }
-  
-  #contact {
-    display: none;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-  }
-  
-  .ul-links {
-    display: flex;
-    flex-direction: row;
-    margin-right: 35px;
-    list-style-type: none;
-    width: 27%;
-  }
-  
+  padding: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.add-book {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+h1 {
+  width: 100%;
+}
+
+h2 {
+  font-size: 0.9em;
+}
+
+.by {
+  font-size: 0.9em;
+}
+
+.book {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.1px solid;
+}
+
+#btn-add {
+  margin-left: 135px;
+}
+
+.remove {
+  width: 72px;
+  height: 21px;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#book-list {
+  width: 100%;
+
+  /* border: 1px solid; */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dates {
+  display: flex;
+  width: 37%;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.container-title {
+  text-align: center;
+}
+
+.nodata {
+  text-align: center;
+}
+
+.nav-menu {
+  border: 3px solid black;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  text-align: center;
+  margin-right: 10px;
+}
+
+.nav-title {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.nav-link-visited {
+  color: blue;
+  text-decoration: underline;
+}
+
+.menuItems {
+  display: flex;
+  gap: 1em;
+  justify-items: center;
+}
+
+.date {
+  text-align: right;
+  margin-top: 15px;
+}
+
+.title {
+  text-align: center;
+
+  /* font-size: 25px; */
+}
+
+.text {
+  text-align: center;
+  font-size: 18px;
+}
+
+.info {
+  text-align: start;
+  margin-top: 60px;
+  margin-left: 100px;
+}
+
+.footer {
+  border: 2px solid;
+  margin-top: 20%;
+}
+
+.text-footer {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+#add-book {
+  display: none;
+}
+
+#contact {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.ul-links {
+  display: flex;
+  flex-direction: row;
+  margin-right: 35px;
+  list-style-type: none;
+  width: 27%;
+}
