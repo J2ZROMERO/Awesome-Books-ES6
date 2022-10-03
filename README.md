@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### copy link the repository.
 
-### [ejecute in your terminal and get a clone] ("https://github.com/J2ZROMERO/Awesome-Books-ES6");
+[clone this repo:]("https://github.com/J2ZROMERO/Awesome-Books-ES6");
 
 
 ### [Live demo: Awesome Books EC6 ](https://j2zromero.github.io/Awesome-Books-ES6/)
@@ -37,7 +37,7 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [githubhandle](@https://github.com/J2ZROMERO)
+- GitHub: [githubhandle](https://github.com/J2ZROMERO)
 - Twitter: [@twitterhandle](https://twitter.com/JOSEZEPED4)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/jose-zepeda-733ab91ab/)
 
